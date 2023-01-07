@@ -1,0 +1,16 @@
+RewriteEngine on
+Options +FollowSymLinks
+
+# Users page
+RewriteRule profile/(.*) Users/user.php?id=$1
+
+# Forum Topic
+RewriteRule topic/(.*) Forum/topic.php?id=$1
+
+# Item page
+RewriteRule item/(.*) Market/item.php?id=$1
+
+# Forum Thread
+RewriteRule thread/(.*) Forum/thread.php?id=$1
+
+
