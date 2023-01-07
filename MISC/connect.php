@@ -1,12 +1,12 @@
 <?php
 
-    $host = 'mysql.ct8.pl';
+    $host = 'localhost';
 
-    $dbname = 'm30838_bricktown';
+    $dbname = 'dbname';
 
-    $username = 'm30838_bricktown';
+    $username = 'username';
 
-    $password = 'Vxzs~qxs2S/H81g5-5^001fu5erqKk';
+    $password = 'password';
 
 ?>
 
